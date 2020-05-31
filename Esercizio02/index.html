@@ -1,50 +1,93 @@
-< html >
-	< testa >
-		< title > La mia pagina web </ title >
-	</ head >
+<html>
+	<head>
+		<title> La mia pagina web </title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+	</head>
 
-	< corpo >
-		< h1 > I geni associati </ h1 >
-		< h2 > Cosa sono e come hanno sconvolto la genetica mendeliana </ h2 >
-		< p > I geni localizzati uno vicino all'altro sullo stesso cromosoma si chiamano < b > geni associati (concatenati, in collegamento) </ b > e fanno parte del medesimo gruppo di collegamento o di associazione. I geni associati si muovono insieme durante la meiosi, alla fine giungono alla medesima destinazione e non ci si aspetta che si assortiscano in modo indipendente. </ p >
-		< p > I geni che si trovano su cromosomi diversi sono distribuiti nei gameti noti l'uno dall'altro (legge di Mendel dell'assortimento indipendente). < B > I geni che sì trovano sullo Stesso cromosoma, invece, tendono </ b > un < i > stare insieme Durante La formazione di gameti </ i > . Cosi 'i risultati ottenuti sottoponendo individui diibridi a un testcross o incrocio di prova saranno diversi secondo che i geni sono associati oppure si trovano su cromosomi diversi. </ p >
-		< P > E' possibile trovare Tutte le informazioni Per necessarie do this site < un  href = " https://www.uniba.it/docenti/viggiano-luigi/attivita-didattica/lezione-11-sn.pdf " > PowerPoint1 < / a >  </ p >
-		< img  src = " https://image2.slideserve.com/3857226/slide9-l.jpg " />
-		< img  src = " https://docplayer.it/docs-images/49/20739784/images/page_6.jpg " />
-		< p > Quando fra due luoghi genici si forma un chiasma, solo la metà dei prodotti meiotici sarà del tipo che ha subito il passaggio. Quindi la frequenza dei chiasmi e la doppia di quella dei prodotti che hanno subito il passaggio. </ p >
-		< ul >
-			< li > % di chiasmi = 2 (% di incrocio) </ li >
-			< li > % di incrocio sopra = 1/2 (% di chiasmi) </ li >
-		< ul >
-
-		< p >Di solito si verifica un certo numero di incrocio tra i geni che sono posti sullo stesso cromosoma e in tal modo si le novità acquistate di caratteri. I geni soggetti a incroci sono associati in maniera incompleta. L'effetto dell'incrocio sulla trasmissione ereditaria di due geni associati. Il passaggio attraverso lo scambio di materiale genetico tra i cromatidi non fratelli. Dopo che c'è stato un singolo incrocio, i due cromatidi che non sono stati coinvolti rimangono inalterati; i gameti che ricevono questi cromatidi sono non ricombinanti. Gli altri due cromatidi, quelli che hanno preso parte all'incrocio, adesso aggiunti nuovi ordinati di alleli; i gameti che ricevono questi cromatidi sono ricombinanti. Per ogni meiosi in cui avviene un incrocio si producono due gameti non ricombinanti e due gameti ricombinanti. Tale risultato è analogo a quello prodotto dall'assortimento indipendente.</ p >
-		< p >Per i geni strettamente associati, l'incrocio non si verifica in ogni meiosi. Nelle meiosi in cui non avviene nel incrocio si svolge solo gameti non ricombinanti. Nelle meiosi in cui si verifica un incrocio da solo, metà dei gameti sono ricombinanti e metà sono non ricombinanti, in quanto un singolo incrocio ha effetto solo su due dei quattro cromatidi. Dal momento che ogni incrocio determina la produzione di una metà di gameti ricombinanti e un'altra metà di gameti non ricombinanti, la percentuale totale di ricombinanti è sempre la metà della percentuale di meiosi in cui avviene l'incrocio. Anche se l'incrocio tra due geni si verifica in tutte le meiosi, sarà ricombinante al massimo il 50% dei gameti che ne derivano.</ p >
-		< p > La percentuale di prognie ricombinante descritta in un incrocio è detta frequenza di ricombinazione e si calcola nel modo seguente:
-			frequenza di ricombinazione = numerosità della progenie ricombinante / numerosità totale della progenie
-		</ p >
-		< p > Esempi: </ p >
-		< tabella >
-			< tr > < td > N tot progenie </ td > < td > N ricombinante </ td > < td > Frequenza di ricombinazione </ td > </ tr >
-			< tr > < td > 235 </ td > < td > 24 </ td > < td > 10.2 UM (%) </ td > </ tr >
-			< tr > < td > 3248 </ td > < td > 2465 </ td > < td > 75.9 UM (%) </ td > </ tr >
-			< tr > < td > 24 </ td > < td > 3 </ td > < td > 12.5 UM (%) </ td > </ tr >
-		</ table >
-		< p > 
+	<body>
+		<h1> I geni associati </h1>
+		<h2> Cosa sono e come hanno sconvolto la genetica mendeliana </h2>
+		<div class="alert alert-info"> <Strong> info! </Strong> Tempo lettura: 10 min </div>		
+		<p class="text-danger"> I geni localizzati uno vicino all’altro sullo stesso cromosoma si chiamano <b> geni associati (concatenati, in linkage) </b> e fanno parte del medesimo gruppo di linkage o di associazione. I geni associati si muovono insieme durante la meiosi, alla fine giungono alla medesima destinazione (lo stesso gamete) e non ci si aspetta che si assortiscano in modo indipendente.</p>
+		<p class="text-primary"> I geni che si trovano su cromosomi diversi sono distribuiti nei gameti indipendentemente l'uno dall'altro (legge di Mendel dell'assortimento indipendente). <b> I geni che si trovano sullo stesso cromosoma, invece, tendono </b> a <i> stare insieme durante la formazione di gameti </i>. Cosi’ i risultati ottenuti sottoponendo individui diibridi a un testcross o incrocio di prova saranno diversi secondo che i geni siano associati oppure si trovino su cromosomi diversi. </p>
+		<p class="text-success"> E' possibile trovare tutte le informazioni necessarie su questo sito <a href="https://www.uniba.it/docenti/viggiano-luigi/attivita-didattica/lezione-11-sn.pdf"> PowerPoint1 </a> </p>
+		<img src= "https://image2.slideserve.com/3857226/slide9-l.jpg"
+		class="rounded" alt="Geni Associati" width="704" height="704"/>
+		<p>
+			
 
 
+		</p>
+		<div class="alert alert-info">
+    	<strong>Info!</strong> La creazione di questo sito è dovuta ad una necessaria conoscenza di rudimenti di base di genetica spiegata in modo semplice poichè ci si  è accorti che online i riferimenti a questi sottili argomenti siano poco chiari e anzi molto confusi. Buona lettura!.
+  		</div>
+  		<p>
+  			
+
+
+  		</p>
+		<img src= "https://docplayer.it/docs-images/49/20739784/images/page_6.jpg" class="img-thumbnail" />
+		<p class="text-info"> Quando fra due loci genici si forma un chiasma, solo la metà dei prodotti meiotici sarà del tipo che ha subito il crossing over. Quindi la frequenza dei chiasmi e’ doppia di quella dei prodotti che hanno subito il crossing-over. </p>
+		<ul>
+			<li> % di chiasmi= 2(% di crossing over) </li>
+			<li> % di crossing over = 1/2 (% di chiasmi) </li>
+		<ul>
+
+		  <p class="text-warning"> Di solito si verifica un certo numero di crossing-over fra i geni che sono posti sullo stesso cromosoma e in tal modo si producono nuove combinazioni di caratteri. I geni soggetti a crossing-over sono associati in maniera incompleta. L’effetto del crossing-over sulla trasmissione ereditaria di due geni associati. Il crossing-over consiste nello scambio di materiale genetico fra cromatidi non fratelli. Dopo che c’è stato un singolo crossing-over, i due cromatidi che non vi sono stati coinvolti rimangono inalterati; i gameti che ricevono questi cromatidi sono non ricombinanti. Gli altri due cromatidi, quelli che hanno preso parte al crossing-over, adesso contengono nuove combinazioni di alleli; i gameti che ricevono questi cromatidi sono ricombinanti. Per ogni meiosi in cui avviene un crossing-over si produrranno due gameti non ricombinanti e due gameti ricombinanti. Tale risultato è analogo a quello prodotto dall’assortimento indipendente. </p>
+		<p> Per i geni strettamente associati, il crossing-over non si verifica in ogni meiosi. Nelle meiosi in cui non avviene nel crossingover si producono solo gameti non ricombinanti. Nelle meiosi in cui si verifica un solo crossing-over, metà dei gameti sono ricombinanti e metà sono non ricombinanti, in quanto un singolo crossing-over ha effetto solo su due dei quattro cromatidi. Dal momento che ogni crossing-over determina la produzione di una metà di gameti ricombinanti e un’altra metà di gameti non ricombinanti, la percentuale totale dei ricombinanti è sempre la metà della percentuale delle meiosi in cui avviene il crossing-over. Anche se il crossing-over fra due geni si verifica in tutte le meiosi, sarà ricombinante al massimo il 50% dei gameti che ne derivano. In definitiva la frequenza dei gameti ricombinanti è sempre la metà della frequenza dei crossing-over e la quantità massima di gameti ricombinanti è il 50%. </p>
+		<p> La percentuale di progenie ricombinante prodotta in un incrocio è detta frequenza di ricombinazione e si calcola nel modo seguente: 
+			frequenza di ricombinazione = numerosità della progenie ricombinante/ numerosità totale della progenie
+		</p>
+		
+		<div class="container">
+  <h2>Esempi</h2>
+  <p>Qui riassumiamo 3 esempi di possibili esercizi:</p>            
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>N toto progenie</th>
+        <th>N ricombinante</th>
+        <th>Frequenza di ricombinazione</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>235</td>
+        <td>24</td>
+        <td>10.2 UM(%)</td>
+      </tr>
+      <tr>
+        <td>3248</td>
+        <td>2465</td>
+        <td>75.9 UM(%)</td>
+      </tr>
+      <tr>
+        <td>24</td>
+        <td>3</td>
+        <td>12.5 UM(%)</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+		<p> 
 
 
 
-		</ p >
-		< ol >
-			< Li > Approfondimento = < un  href = " file: /// C: /Users/Fratelli%20Masini/Downloads/Esercizi_svolti_Genetica.pdf " > I_Geni_Associati: Approfondimento </ a >  </ li >
-			< Li > Esercizi 1 = < un  href = " https://elearning.uniroma1.it/pluginfile.php/208590/mod_resource/content/1/Esercizi_2014.pdf " > Es1 </ a >  </ li >
-			< Li > Esercizi 2 = < un  href = " file: /// C: /Users/Fratelli%20Masini/Downloads/sadava_b1.pdf " > Es2 </ a >  </ li >
-			< Li > Genetica in generale = < un  href = " http://www.genopomii.unina.it/genohort/files/mappatura%20genetica%20ore%209-10.pdf " > GIG </ a >  </ li >
-		</ ol >
+
+
+		</p>
+		<ol>
+			<li> Approfondimento=<a href="file:///C:/Users/Fratelli%20Masini/Downloads/Esercizi_svolti_Genetica.pdf"> I_Geni_Associati:Approfondimento <button class="btn btn-danger" type="button">1</button> </a> </li>
+			<li> Esercizi 1= <a href="https://elearning.uniroma1.it/pluginfile.php/208590/mod_resource/content/1/Esercizi_2014.pdf"> Es1 <button class="btn btn-primary" type="button">2</button></a> </li>
+			<li> Esercizi 2=<a href= "file:///C:/Users/Fratelli%20Masini/Downloads/sadava_b1.pdf"> Es2 <button class="btn btn-success" type="button">3</button> </a> </li>
+			<li> Genetica in generale=<a href="http://www.genopomii.unina.it/genohort/files/mappatura%20genetica%20ore%209-10.pdf"> GIG <button class="btn btn-warning" type="button">4</button></a> </li>
+		</ol>
 		
 
 
-	</ body >
+	</body>
 
-</ html >
+</html>
